@@ -1,0 +1,7 @@
+cert.pem
+key.pem
+package-lock.json
+yarn.lock
+src/config.json
+node_modules
+dist

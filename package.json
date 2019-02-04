@@ -1,0 +1,26 @@
+{
+  "name": "ts-telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node-telegram-bot-api": "^0.30.4",
+    "@types/watson-developer-cloud": "^2.40.0",
+    "axios": "^0.18.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.18.9",
+    "typescript": "^3.2.4",
+    "watson-developer-cloud": "^3.16.1"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "start": "nodemon --experimental-worker ./dist"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "ignore": [
+      "dist/db.json"
+    ]
+  }
+}
